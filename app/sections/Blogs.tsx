@@ -83,7 +83,7 @@ export const Blogs = () => {
           </button>
           </div>
           <div className='p-6 border border-neutral-500/30 rounded-2xl mt-10 relative w-full'>
-            <motion.img src={abstractImg.src} alt='Abstract Image' className='w-full'
+            <motion.img src={abstractImg} alt='Abstract Image' className='w-full'
             animate={{
               translateY: [-30, 30],
             }} 
