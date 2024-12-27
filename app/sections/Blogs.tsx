@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import sparkleIcon from '@/public/assets/sparkle.svg';
 import sparkleWhiteIcon from '@/public/assets/sparkle-white.svg';
-import abstractImg from '@/public/assets/abstract.svg';
+import abstractImg from '@/public/assets/Abstract.svg';
 import blogImg1 from '@/public/assets/Business.svg';
 import blogImg2 from '@/public/assets/Business-2.svg';
 import blogImg3 from '@/public/assets/Business-3.svg';
@@ -83,7 +83,7 @@ export const Blogs = () => {
           </button>
           </div>
           <div className='p-6 border border-neutral-500/30 rounded-2xl mt-10 relative w-full'>
-            <motion.img src={abstractImg} alt='Abstract Image' className='w-full'
+            <motion.img src={abstractImg.src} alt='Abstract Image' className='w-full'
             animate={{
               translateY: [-30, 30],
             }} 
